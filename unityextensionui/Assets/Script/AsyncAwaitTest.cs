@@ -39,13 +39,14 @@ public class AsyncAwaitTest : MonoBehaviour
 
     public void OnUpdateBtn()
     {
-        _deltaTime = _TargetTime;
+        _deltaTime = _TargetTime;           //
         _chkUpdate = true;
         Debug.Log("start of update");
     }
 
     private void Update()
     {
+        // OnUpdateBtn 을 누르면 _chkUpdate가 true
         if(_chkUpdate)
         {
             if (_deltaTime > 0)
@@ -67,6 +68,8 @@ public class AsyncAwaitTest : MonoBehaviour
     public void OnCoroutineBtn()
     {
         //if(_coroutine != null) StopCoroutine(_coroutine);
+
+        // 첫번째 로그 찍힌 후 delay 시간 2초 뒤 두번째 코루틴 출력
         _coroutine = StartCoroutine(CoDelayTest(2));
     }
 
