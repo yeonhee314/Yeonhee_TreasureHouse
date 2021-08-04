@@ -47,7 +47,6 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
-    <UnityProjectGeneratorVersion>4.10.3.0</UnityProjectGeneratorVersion>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
     <UnityVersion>2019.4.11f1</UnityVersion>
@@ -81,10 +80,12 @@
     <Compile Include="Assets\Script\AsyncAwaitTest.cs" />
     <Compile Include="Assets\Script\Color_Slot.cs" />
     <Compile Include="Assets\Script\CoolTimer.cs" />
+    <Compile Include="Assets\Script\HeeLogic.cs" />
     <Compile Include="Assets\Script\Panel_Background.cs" />
     <Compile Include="Assets\Script\ScrollSnap.cs" />
     <Compile Include="Assets\Script\StudyCoord.cs" />
     <Compile Include="Assets\Script\catchObjPos.cs" />
+    <Compile Include="Assets\Script\deleteGateTest.cs" />
     <Compile Include="Assets\Script\makeList.cs" />
     <Compile Include="Assets\Script\setListComponent.cs" />
     <Compile Include="Assets\Simple Scroll-Snap\Examples\Example 1 (macOS Finder)\Scripts\FileSelected.cs" />
@@ -632,31 +633,31 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>G:/Yeonhee_TreasureHouse/Yeonhee_TreasureHouse/unityextensionui/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:/Yeonhee_TreasureHouse/unityextensionui/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>G:/Yeonhee_TreasureHouse/Yeonhee_TreasureHouse/unityextensionui/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>D:/Yeonhee_TreasureHouse/unityextensionui/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>G:/Yeonhee_TreasureHouse/Yeonhee_TreasureHouse/unityextensionui/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/Yeonhee_TreasureHouse/unityextensionui/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>G:/Yeonhee_TreasureHouse/Yeonhee_TreasureHouse/unityextensionui/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>D:/Yeonhee_TreasureHouse/unityextensionui/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>G:/Yeonhee_TreasureHouse/Yeonhee_TreasureHouse/unityextensionui/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>D:/Yeonhee_TreasureHouse/unityextensionui/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>G:/Yeonhee_TreasureHouse/Yeonhee_TreasureHouse/unityextensionui/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/Yeonhee_TreasureHouse/unityextensionui/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>G:/Yeonhee_TreasureHouse/Yeonhee_TreasureHouse/unityextensionui/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>D:/Yeonhee_TreasureHouse/unityextensionui/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>G:/Yeonhee_TreasureHouse/Yeonhee_TreasureHouse/unityextensionui/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/Yeonhee_TreasureHouse/unityextensionui/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>G:/Yeonhee_TreasureHouse/Yeonhee_TreasureHouse/unityextensionui/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>D:/Yeonhee_TreasureHouse/unityextensionui/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>
