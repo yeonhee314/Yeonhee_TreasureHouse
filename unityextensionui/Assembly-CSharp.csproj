@@ -85,6 +85,7 @@
     <Compile Include="Assets\Script\ScrollSnap.cs" />
     <Compile Include="Assets\Script\StudyCoord.cs" />
     <Compile Include="Assets\Script\catchObjPos.cs" />
+    <Compile Include="Assets\Script\delegate2.cs" />
     <Compile Include="Assets\Script\deleteGateTest.cs" />
     <Compile Include="Assets\Script\makeList.cs" />
     <Compile Include="Assets\Script\setListComponent.cs" />
